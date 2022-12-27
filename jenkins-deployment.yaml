@@ -23,7 +23,7 @@ spec:
             containerPort: 50000
         volumeMounts:
           - name: jenkins-volume
-            mountPath: /Users/INE12398082/Desktop/Aniket/jenkins-k8s
+            mountPath: <your-local-path>
       volumes:
         - name: jenkins-volume
           persistentVolumeClaim:
